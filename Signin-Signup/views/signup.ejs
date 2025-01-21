@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <style>
+    /* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Sign Up Container */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.signup-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input Fields */
+.textbox {
+  margin: 20px 0;
+  position: relative;
+}
+
+.textbox input {
+  width: 100%;
+  padding: 12px;
+  padding-left: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+}
+
+.textbox input:focus {
+  border-color: #4CAF50;
+}
+
+/* Button */
+.btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+/* Existing Account Link */
+p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+p a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+  </style>
+</head>
+<body>
+  <div class="signup-container">
+    <div class="signup-box">
+      <h2>Sign Up</h2>
+      <form action="/signup" method="POST">
+        <div class="textbox">
+          <input type="text" placeholder="Full Name" name="fullname" required>
+        </div>
+        <div class="textbox">
+          <input type="password" placeholder="Password" name="password" required>
+        </div>
+        <input type="submit" value="Sign Up" class="btn"> 
+        
+      </form>
+    </div>
+  </div>
+</body>
+</html>
