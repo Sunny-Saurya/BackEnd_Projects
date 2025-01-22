@@ -40,3 +40,29 @@ Postman: For testing API endpoints.
 Visual Studio Code (VS Code): For code development.
 Git: For version control.
 GitHub: For hosting the project repository.
+
+
+📝 Project 3: ToDo App
+Frontend: HTML, CSS, JavaScript (or React)
+Backend: Node.js, Express, MongoDB (or SQL)
+Overview
+A simple ToDo App that allows users to manage their daily tasks efficiently. The app provides features to add, mark as complete, and delete tasks. The backend handles task storage and updates.
+
+Key Features
+Add new tasks with title and description.
+Mark tasks as complete or incomplete.
+Delete tasks.
+Persistent storage of tasks in the database.
+Clean and responsive UI with modern design.
+Technologies Used
+Frontend:
+
+HTML
+CSS
+JavaScript (or React)
+Backend:
+
+Node.js
+Express
+MongoDB (or SQL)
+
