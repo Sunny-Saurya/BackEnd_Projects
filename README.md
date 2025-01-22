@@ -42,7 +42,8 @@ Git: For version control.
 GitHub: For hosting the project repository.
 
 
-📝 Project 3: ToDo App
+### **📝 Project 3: ToDo App
+
 Frontend: HTML, CSS, JavaScript (or React)
 Backend: Node.js, Express, MongoDB (or SQL)
 Overview
